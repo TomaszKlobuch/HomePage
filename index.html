@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tomasz Kłobuch-Przyszły programista</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/styleDark.css" rel="stylesheet">
+  <link href="css/nav.css" rel="stylesheet">
+  <link href="css/navDark.css" rel="stylesheet">
+  <link href="css/table.css" rel="stylesheet">
+  <link href="css/tableDark.css" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="body js-body">
+  <header class="header">
+    <h1>Tomasz Kłobuch</h1>
+    <h3>W pogoni za FRONTEND</h3>
+  </header>
+  <div class="nav__div js-nav__div">
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#o-mnie" class="nav__link js-nav__link">O Mnie</a>
+        </li>
+        <li class="nav__item">
+          <a href="#zainteresowania" class="nav__link js-nav__link">Zainteresowania</a>
+        </li>
+        <li class="nav__item">
+          <a href="#kontakt" class="nav__link js-nav__link">Kontakt</a>
+        </li>
+      </ul>
+
+      <div class="nav__div--style js-nav__div--style">
+        <button class="nav__button js-styleColor" title="Zmiana motywu">
+          🌞/🌚
+        </button>
+        <button class="nav__button js-textSize" title="Zmiana rozmiaru tekstu">
+          A<span class="textSize">/A</a></span>
+        </button>
+
+      </div>
+    </nav>
+  </div>
+
+  <main class="main">
+    <section id="o-mnie">
+      <h2>O Mnie</h2>
+      <p>Jest mi niezmiernie miło że tutaj zaglądasz. Mam na imię Tomasz urodziłęm się w Chorzowie a obecnie mieszkam w
+        Katowicach. Jestem dumnym mężem i ojcem Juli(12l.) i Kacpra (8l.) To co tutaj Wam zaprezentuję jest związane z
+        marzeniem z dzieciństwa. Mianowice o zastaniu twórcą stron internetowych. Uczęszczałem do liceum o profilu
+        informatycznym gdzie stawiałem swoje pierwsze kroki jako Web Developer współtworząc <a
+          href="https://web.archive.org/web/20081028202335/https://www.zstnr2.pop.pl/" target="_blank"
+          rel="noreferrer noopener" title=" Strona szkoły wyświetlona w web.archive.org">witrynę</a>
+        szkoły.
+        Niestety moje drogi z branżą IT się rozeszły lecz pora to naprawić. Po 7 latach w logistyce nadeszła pora na
+        przebranżowienie się. Obecnie podnoszę swoje umiejętności z <b>HTML, CSS i JAVASCRIPT</b> pod okiem instruktorów
+        z
+        <b>YOUCODE</b>.
+      </p>
+    </section>
+    <section id="zainteresowania">
+      <h2>Zainteresowania</h2>
+      <ul>
+        <li>Muzyka (poświęcam jej każdą wolną chwilę)</li>
+        <li>Gry planszowe(najlepiej z rodziną i dobrą muzyką)</li>
+      </ul>
+      <table class="table">
+        <caption class="caption">Ulubione gry rodzinne:</caption>
+        <tr>
+          <th class="table__cell--header table__cell js-table__cell--header" scope="col">Nazwa gry</th>
+          <th class="table__cell--header table__cell js-table__cell--header" scope="col">Cel gry</th>
+          <th class="table__cell--header table__cell js-table__cell--header" scope="col">Więcej informacji</th>
+        </tr>
+        <tr>
+          <th class="table__cell--header table__cell js-table__cell--header" scope="row">Good Boy</th>
+          <td class="table__cell">Zbieraj zabawki i łakocie które możesz zmieniać wymieniać na pieski. Każdy piesek ma
+            swoje punkty, kto
+            pierwszy zdobędzie 20 punktów wygrywa! Nie daj kotą przeszkodzić w grze</td>
+          <td class="table__cell"><a href="https://www.trefl.com/good-boy-02288" target="_blank">Strona producenta</a>
+          </td>
+        </tr>
+        <tr>
+          <th class="table__cell--header table__cell js-table__cell--header" scope="row">Dobble</th>
+          <td class="table__cell">Dopasuj 2 takie same obrazki, jeden na swojej karcie a drugi z karty która jest na
+            stole. Para? Super! odłuż kartę na stół i powiedz jaki to obrazek. Kto pierwszy pozbędzie sie katr wygrywa
+          </td>
+          <td class="table__cell"><a href="https://www.rebel.pl/gry-planszowe/dobble-20640.html" target="_blank">Strona
+              producenta</a>
+          </td>
+        </tr>
+        <tr>
+          <th class="table__cell--header table__cell js-table__cell--header" scope="row">Pełny Kurnik</th>
+          <td class="table__cell">W zależności od ilości oczek na kostce dostaniesz jajko, kurczaka, lub kurę. Masz 3
+            jajkia? Możesz wynienić na 1 kurczaka. 1 kura warta jest 3 kurczaki. Kto pierwszy będzie miał 12 kur
+            wygrywa. Lecz uważaj na wilka!
+          </td>
+          <td class="table__cell"><a href="https://www.kukuryku.co/product-page/pe%C5%82ny-kurnik"
+              target="_blank">Strona
+              producenta</a>
+          </td>
+        </tr>
+      </table>
+    </section>
+  </main>
+  <div class="nav__div js-nav__div">
+    <footer class="footer">
+      <section id="kontakt">
+        <a class="nav__link js-nav__link" href="mailto:tomaszklobuch@gmail.com">MAIL</a>
+      </section>
+    </footer>
+  </div>
+</body>
+
+</html>
