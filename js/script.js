@@ -3,8 +3,6 @@
     console.log("Witam wszystkich / Hi everyone");
   }
 
-  welcome()
-
   const toggleBackground = () => {
     const styleButtonSecond = document.querySelector(".js-styleColor");
     const bodyStyle = document.querySelector(".js-body");
@@ -23,24 +21,17 @@
     tableCellHeader.classList.toggle("tableDark__cell--header");
   }
 
-  const toggleBackgroundButton = () => {
-    const styleButton = document.querySelector(".js-styleColor");
-    styleButton.addEventListener("click", toggleBackground);
-  }
-
-  toggleBackgroundButton();
-
-  
-
   const toggleSize = () => {
     const bodyTextSize = document.querySelector(".body")
     bodyTextSize.classList.toggle("body--textSize");
   }
 
-  const toggleSizebutton = () => {
-  const textSizeButton = document.querySelector(".js-textSize");
-  textSizeButton.addEventListener("click", (toggleSize))
-  };
-
-  toggleSizebutton();
+  const init = () => {
+    const styleButton = document.querySelector(".js-styleColor");
+    const textSizeButton = document.querySelector(".js-textSize");
+    textSizeButton.addEventListener("click", (toggleSize))
+    styleButton.addEventListener("click", toggleBackground);
+    welcome()
+  }
+  init()
 }
